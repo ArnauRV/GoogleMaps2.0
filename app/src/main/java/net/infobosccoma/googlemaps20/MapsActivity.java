@@ -320,7 +320,7 @@ public class MapsActivity extends ActionBarActivity implements LocationListener,
                 amagarTeclat(MapsActivity.this);
 
                 // Si el mòbil té l'internet activat es descarrega
-                // es crida el thread.
+                // mitjançant el thread.
                 if (estasConnectat()) {
                     new DescarregarDades().execute(query);
                 }
@@ -518,7 +518,7 @@ public class MapsActivity extends ActionBarActivity implements LocationListener,
         llistaPosicions = llista;
 
         for (int i = 0; i < llista.size(); i++) {
-            mMap.addMarker(new MarkerOptions().position(new LatLng(llista.get(i).getLatitude(), llista.get(i).getLongitude())).title(llista.get(i).getName())
+            mMap.addMarker(new MarkerOptions().position(new LatLng(llista.get(i).getLatitude(), llista.get(i).getLongitude())).title(llista.get(i).getName() + " " +llista.get(i).getLatitude() + ", " + llista.get(i).getLongitude())
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))); //Pinta de color blau el marker
         }
     }
