@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Maps 2.0</string>
+<string name="title_activity_maps">Maps 2.0</string>
+<string name="btnCentrar">Centrar</string>
+<string name="ActivarOff">Activar</string>
+<string name="tancarSlider">Tancar</string>
+<string name="obrirSlider">Obrir</string>
+
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+</resources>

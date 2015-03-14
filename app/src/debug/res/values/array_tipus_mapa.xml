@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipusMapa">
+        <item>Normal</item>
+        <item>Híbrid</item>
+        <item>Topogràfic</item>
+        <item>Satèl·lit</item>
+    </string-array>
+</resources>
